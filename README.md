@@ -5,14 +5,13 @@ Capture live network packets, analyze traffic, and identify protocols.
 
 ## Tools Used
 - Wireshark (Latest Version)
-- Windows 10
-- Command Prompt / Web Browser
+- Windows 11
+- Web Browser
 
 ## Steps Performed
 1. Installed Wireshark with NPcap driver.
 2. Selected the active Wi-Fi interface.
 3. Generated traffic by:
-   - Pinging google.com
    - Browsing a few websites
 4. Stopped capture after 1 minute.
 5. Applied filters for protocols like `http`, `dns`, `tcp`.
@@ -26,7 +25,7 @@ Capture live network packets, analyze traffic, and identify protocols.
 
 ## Deliverables
 - `network_capture.pcap`: Packet capture file
-- `report.pdf`: Summary of findings
+- `network traffic analysis report.docx`: Summary of findings
 
 ## Outcome
 Successfully captured and analyzed live packet data and became familiar with key networking protocols and packet structures.
